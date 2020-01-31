@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form action="">
+      <label for="First Name"
+        >First name:
+        <input id="First Name" placeholder="First Name" type="text" required />
+      </label>
+      <label for="SurName">
+        Surname name:
+        <input id="SurName" placeholder="SurName" type="text" required />
+      </label>
+      <br />
+      <label for="male" name="gender" value="male">male</label>
+      <input type="radio" name="gender" id="male" />
+
+      <label for="female" name="gender" value="female">female</label>
+      <input type="radio" name="gender" id="female" />
+
+      <label for="others" name="gender" value="others">others</label>
+      <input type="radio" name="gender" id="others" />
+
+      <br />
+      <label for="email">
+        Email:
+        <input id="email" placeholder="email" type="email" required />
+      </label>
+      <label for="password">
+        password:
+        <input
+          id="password"
+          placeholder="password"
+          type="password"
+          minlength="5"
+          maxlength="10"
+          required
+        /> </label
+      ><br />
+      Birthday:
+      <select name="day" id="">
+        <option value="day">12</option>
+      </select>
+      <select name="month" id="">
+        <option value="month">january</option>
+      </select>
+      <select name="year" id="">
+        <option value="year">1972</option> </select
+      ><br />
+      <label for="agreement"
+        >I agree to the terms and condition:
+        <input type="checkbox" name="agree" id="agreement" required /> </label
+      ><br />
+      <button>submit</button>
+    </form>
+  </body>
+</html>

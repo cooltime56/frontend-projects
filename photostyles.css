@@ -1,0 +1,16 @@
+img {
+  float: left;
+  width: 30%;
+  margin: 1.66%;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  border-bottom: 2px solid cadetblue;
+  padding-bottom: 4px;
+  font-size: 20px;
+  margin: 1.66%;
+  width: 30%;
+}
