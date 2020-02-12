@@ -1,3 +1,8 @@
-.card {
-  margin: 20px auto;
+.row {
+  margin: 20px 0;
+  background-color: blue;
+}
+.pink {
+  background-color: coral;
+  border: 2px solid pink;
 }
